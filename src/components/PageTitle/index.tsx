@@ -30,7 +30,7 @@ const PageTitle: FC<PageTitleProps> = ({
         </Typography>
         <Typography variant="subtitle2">{subHeading}</Typography>
       </Grid>
-      <Grid item>
+      {buttonHref && <Grid item>
         <Button
           href={buttonHref}
           target="_blank"
@@ -41,7 +41,7 @@ const PageTitle: FC<PageTitleProps> = ({
         >
           {buttonText}
         </Button>
-      </Grid>
+      </Grid>}
     </Grid>
   );
 };

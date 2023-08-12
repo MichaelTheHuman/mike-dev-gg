@@ -112,9 +112,9 @@ function HeaderNotifications() {
                 color="text.secondary"
               >
                 {/*{' '}*/}
-                <Link href="https://www.linkedin.com/in/mk9401/">
-                  <LinkedIn /> /in/mk9401/
-                </Link>
+                {/*<Link href="https://www.linkedin.com/in/mk9401/">*/}
+                {/*  <LinkedIn /> /in/mk9401/*/}
+                {/*</Link>*/}
               </Typography>
             </Box>
           </ListItem>

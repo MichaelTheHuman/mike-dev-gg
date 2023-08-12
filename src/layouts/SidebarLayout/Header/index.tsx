@@ -70,7 +70,7 @@ function Header() {
         spacing={2}
       >
         <HeaderMenu />
-        <Link href="https://www.linkedin.com/in/mk9401/" sx={{ display: "flex" }}>
+        <Link href="https://www.linkedin.com/in/mk9401/" target="_blank" sx={{ display: "flex" }}>
           <LinkedIn sx={{ my: "auto" }} />
           <Typography sx={{ mt: "auto", ml: 0.5 }}>LinkedIn</Typography>
         </Link>

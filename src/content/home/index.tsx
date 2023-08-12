@@ -12,10 +12,8 @@ export default function Home() {
       </Helmet>
       <PageTitleWrapper>
         <PageTitle
-          heading="Avatars"
-          subHeading="Avatars are found throughout material design with uses in everything from tables to dialog menus."
-          buttonHref="https://www.linkedin.com/in/mk9401/"
-          buttonText="LinkedIn"
+          heading="Testing"
+          subHeading="Blah blah blah."
         />
       </PageTitleWrapper>
       <Container maxWidth="lg">
