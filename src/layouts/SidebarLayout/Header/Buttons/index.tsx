@@ -8,19 +8,9 @@ import { useContext } from 'react';
 
 
 function HeaderButtons() {
-  const setTheme = useContext(ThemeContext);
   return (
     <Box sx={{ mr: 1 }}>
-      <ThemeSwitch 
-        label=""
-        checked={localStorage.getItem('appTheme') === "NebulaFighterTheme"}
-        onChange={(e, v):void => {
-          let theme = "PureLightTheme";
-          if (v) {
-            theme = "NebulaFighterTheme";
-          }
-          setTheme(theme)
-        }} 
+      <ThemeSwitch
       />
       {/*<Link href="https://www.linkedin.com/in/mk9401/">*/}
       {/*  <LinkedIn />*/}

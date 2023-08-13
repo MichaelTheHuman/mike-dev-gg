@@ -1,5 +1,6 @@
 import { FormControlLabel, Switch, styled } from "@mui/material";
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from "../../../../../theme/ThemeProvider";
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   width: 62,
@@ -50,23 +51,25 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 
-interface IThemeSwitch {
-  label: string;
-  checked: boolean;
-  onChange: (e, v) => void;
-}
-
-function ThemeSwitch(props: IThemeSwitch) {
+function ThemeSwitch(props:any) {
+  const setTheme = useContext(ThemeContext);
   return (
     <FormControlLabel
+      {...props}
       control={
         <MaterialUISwitch 
           sx={{ m: 1 }} 
-          checked={props.checked} 
-          onChange={props.onChange} 
+          checked={localStorage.getItem('appTheme') === "NebulaFighterTheme"}
+          onChange={(e, v):void => {
+            let theme = "PureLightTheme";
+            if (v) {
+              theme = "NebulaFighterTheme";
+            }
+            setTheme(theme)
+          }}
         />
       }
-      label={props.label}
+      label={""}
     />
   )
 }

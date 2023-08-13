@@ -1,0 +1,214 @@
+[
+    {
+        "main_word": "Guitar",
+        "taboo_words": ["Music", "Strings", "Instrument", "Strum", "Acoustic"]
+    },
+    {
+        "main_word": "Beach",
+        "taboo_words": ["Sand", "Sun", "Ocean", "Vacation", "Swim"]
+    },
+    {
+        "main_word": "Pizza",
+        "taboo_words": ["Cheese", "Pepperoni", "Dough", "Delivery", "Italian"]
+    },
+    {
+        "main_word": "Sunset",
+        "taboo_words": ["Evening", "Sky", "Horizon", "Colors", "Dusk"]
+    },
+    {
+        "main_word": "Cat",
+        "taboo_words": ["Pet", "Meow", "Whiskers", "Feline", "Purr"]
+    },
+    {
+        "main_word": "Rainbow",
+        "taboo_words": ["Colors", "Sky", "Arc", "Weather", "Pot of gold"]
+    },
+    {
+        "main_word": "Book",
+        "taboo_words": ["Read", "Pages", "Novel", "Library", "Story"]
+    },
+    {
+        "main_word": "Movie",
+        "taboo_words": ["Film", "Cinema", "Screen", "Actors", "Watch"]
+    },
+    {
+        "main_word": "Basketball",
+        "taboo_words": ["Sport", "Hoops", "Court", "Dribble", "NBA"]
+    },
+    {
+        "main_word": "Birthday",
+        "taboo_words": ["Party", "Cake", "Celebrate", "Age", "Gifts"]
+    },
+    {
+        "main_word": "Camera",
+        "taboo_words": ["Photography", "Lens", "Capture", "Shutter", "Pictures"]
+    },
+    {
+        "main_word": "Olympics",
+        "taboo_words": ["Sports", "Competition", "Medals", "Athletes", "World event"]
+    },
+    {
+        "main_word": "Robot",
+        "taboo_words": ["Automation", "AI", "Mechanical", "Android", "Technology"]
+    },
+    {
+        "main_word": "Space",
+        "taboo_words": ["Universe", "Stars", "Galaxy", "Astronaut", "Cosmos"]
+    },
+    {
+        "main_word": "Dance",
+        "taboo_words": ["Move", "Music", "Rhythm", "Choreography", "Perform"]
+    },
+    {
+        "main_word": "Train",
+        "taboo_words": ["Railroad", "Tracks", "Transportation", "Locomotive", "Travel"]
+    },
+    {
+        "main_word": "Rain",
+        "taboo_words": ["Precipitation", "Wet", "Weather", "Umbrella", "Drops"]
+    },
+    {
+        "main_word": "Mountains",
+        "taboo_words": ["Peaks", "Elevation", "Hiking", "Range", "Landscape"]
+    },
+    {
+        "main_word": "Chocolate",
+        "taboo_words": ["Sweet", "Cocoa", "Dessert", "Candy", "Brown"]
+    },
+    {
+        "main_word": "Fireworks",
+        "taboo_words": ["Explosions", "Celebration", "Colors", "Sky", "Event"]
+    },
+    {
+        "main_word": "Computer",
+        "taboo_words": ["Technology", "Device", "Screen", "Keyboard", "Internet"]
+    },
+    {
+        "main_word": "Beard",
+        "taboo_words": ["Facial hair", "Chin", "Grooming", "Mustache", "Shave"]
+    },
+    {
+        "main_word": "Clock",
+        "taboo_words": ["Time", "Hour", "Minutes", "Hands", "Ticking"]
+    },
+    {
+        "main_word": "Bees",
+        "taboo_words": ["Insects", "Honey", "Buzz", "Pollination", "Hive"]
+    },
+    {
+        "main_word": "Raincoat",
+        "taboo_words": ["Waterproof", "Protection", "Wet", "Outerwear", "Jacket"]
+    },
+    {
+        "main_word": "Football",
+        "taboo_words": ["Sport", "Field", "Touchdown", "Helmet", "Pass"]
+    },
+    {
+        "main_word": "Piano",
+        "taboo_words": ["Instrument", "Keys", "Music", "Melody", "Grand"]
+    },
+    {
+        "main_word": "Jungle",
+        "taboo_words": ["Wilderness", "Trees", "Animals", "Tropical", "Adventure"]
+    },
+    {
+        "main_word": "Mirror",
+        "taboo_words": ["Reflection", "Glass", "Image", "Reflective", "See"]
+    },
+    {
+        "main_word": "Ice Cream",
+        "taboo_words": ["Dessert", "Frozen", "Scoop", "Flavors", "Cone"]
+    },
+    {
+        "main_word": "School",
+        "taboo_words": ["Education", "Classroom", "Students", "Learning", "Teacher"]
+    },
+    {
+        "main_word": "Garden",
+        "taboo_words": ["Plants", "Flowers", "Outdoor", "Growth", "Landscaping"]
+    },
+    {
+        "main_word": "Elephant",
+        "taboo_words": ["Animal", "Trunk", "Tusk", "Mammal", "Safari"]
+    },
+    {
+        "main_word": "Rainforest",
+        "taboo_words": ["Ecosystem", "Tropical", "Biodiversity", "Trees", "Amazon"]
+    },
+    {
+        "main_word": "Coffee",
+        "taboo_words": ["Beverage", "Caffeine", "Brew", "Drink", "Mug"]
+    },
+    {
+        "main_word": "Eagle",
+        "taboo_words": ["Bird", "Raptor", "Wings", "Predator", "Soar"]
+    },
+    {
+        "main_word": "Summer",
+        "taboo_words": ["Season", "Hot", "Beach", "Vacation", "Sunshine"]
+    },
+    {
+        "main_word": "Police",
+        "taboo_words": ["Law enforcement", "Officers", "Uniform", "Patrol", "Protect"]
+    },
+    {
+        "main_word": "Cake",
+        "taboo_words": ["Dessert", "Celebration", "Sweet", "Layers", "Birthday"]
+    },
+    {
+        "main_word": "Forest",
+        "taboo_words": ["Trees", "Nature", "Woodland", "Wildlife", "Green"]
+    },
+    {
+        "main_word": "Moon",
+        "taboo_words": ["Lunar", "Night sky", "Space", "Orbit", "Crescent"]
+    },
+    {
+        "main_word": "Island",
+        "taboo_words": ["Land", "Water", "Tropical", "Beach", "Ocean"]
+    },
+    {
+        "main_word": "Snow",
+        "taboo_words": ["Cold", "Frozen", "Winter", "Flakes", "Icy"]
+    },
+    {
+        "main_word": "Soccer",
+        "taboo_words": ["Sport", "Goal", "Pitch", "Team", "Kick"]
+    },
+    {
+        "main_word": "Telephone",
+        "taboo_words": ["Communication", "Call", "Dial", "Conversation", "Device"]
+    },
+    {
+        "main_word": "Music",
+        "taboo_words": ["Melody", "Rhythm", "Notes", "Sound", "Instrument"]
+    },
+    {
+        "main_word": "Camping",
+        "taboo_words": ["Outdoor", "Tent", "Nature", "Campfire", "Adventure"]
+    },
+    {
+        "main_word": "Ocean",
+        "taboo_words": ["Sea", "Water", "Beach", "Marine", "Waves"]
+    },
+    {
+        "main_word": "Rainbow",
+        "taboo_words": ["Colors", "Sky", "Arc", "Weather", "Pot of gold"]
+    },
+    {
+        "main_word": "Zoo",
+        "taboo_words": ["Animals", "Exhibit", "Wildlife", "Cages", "Visit"]
+    },
+    {
+        "main_word": "Map",
+        "taboo_words": ["Navigation", "Directions", "Location", "Guide", "Paper"]
+    },
+    {
+        "main_word": "Telescope",
+        "taboo_words": ["Astronomy", "Observation", "Stars", "Lens", "Galaxy"]
+    },
+    {
+        "main_word": "Car",
+        "taboo_words": ["Automobile", "Vehicle", "Drive", "Transportation", "Road"]
+    }
+]

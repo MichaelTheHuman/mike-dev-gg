@@ -1,0 +1,214 @@
+[
+    {
+        "main_word": "Gitara",
+        "taboo_words": ["Muzyka", "Struny", "Instrument", "Brzdęk", "Akustyczna"]
+    },
+    {
+        "main_word": "Plaża",
+        "taboo_words": ["Piasek", "Słońce", "Ocean", "Wakacje", "Pływanie"]
+    },
+    {
+        "main_word": "Pizza",
+        "taboo_words": ["Ser", "Pepperoni", "Ciasto", "Dostawa", "Włoska"]
+    },
+    {
+        "main_word": "Zachód słońca",
+        "taboo_words": ["Wieczór", "Niebo", "Horyzont", "Kolory", "Zmierzch"]
+    },
+    {
+        "main_word": "Kot",
+        "taboo_words": ["Zwierzę", "Miau", "Wąsy", "Kotowate", "Mruczenie"]
+    },
+    {
+        "main_word": "Tęcza",
+        "taboo_words": ["Kolory", "Niebo", "Łuk", "Pogoda", "Garnek złota"]
+    },
+    {
+        "main_word": "Książka",
+        "taboo_words": ["Czytać", "Strony", "Powieść", "Biblioteka", "Opowieść"]
+    },
+    {
+        "main_word": "Film",
+        "taboo_words": ["Kino", "Ekran", "Aktorzy", "Oglądać", "Akcja"]
+    },
+    {
+        "main_word": "Koszykówka",
+        "taboo_words": ["Sport", "Kosze", "Boisko", "Drybling", "NBA"]
+    },
+    {
+        "main_word": "Urodziny",
+        "taboo_words": ["Impreza", "Tort", "Świętować", "Wiek", "Prezenty"]
+    },
+    {
+        "main_word": "Aparat",
+        "taboo_words": ["Fotografia", "Obiektyw", "Zdjęcie", "Spust migawki", "Zdjęcia"]
+    },
+    {
+        "main_word": "Igrzyska Olimpijskie",
+        "taboo_words": ["Sport", "Rywalizacja", "Medale", "Sportowcy", "Wydarzenie światowe"]
+    },
+    {
+        "main_word": "Robot",
+        "taboo_words": ["Automatyzacja", "Sztuczna inteligencja", "Mechaniczny", "Android", "Technologia"]
+    },
+    {
+        "main_word": "Kosmos",
+        "taboo_words": ["Wszechświat", "Gwiazdy", "Galaktyka", "Astronauta", "Kosmiczny"]
+    },
+    {
+        "main_word": "Taniec",
+        "taboo_words": ["Ruch", "Muzyka", "Rytm", "Choreografia", "Występ"]
+    },
+    {
+        "main_word": "Pociąg",
+        "taboo_words": ["Kolej", "Tory", "Transport", "Lokomotywa", "Podróż"]
+    },
+    {
+        "main_word": "Deszcz",
+        "taboo_words": ["Opad atmosferyczny", "Mokro", "Pogoda", "Parasol", "Krople"]
+    },
+    {
+        "main_word": "Góry",
+        "taboo_words": ["Szczyty", "Wysokość", "Wędrówka", "Pasmo", "Krajobraz"]
+    },
+    {
+        "main_word": "Czekolada",
+        "taboo_words": ["Słodka", "Kakao", "Deser", "Cukierek", "Brązowa"]
+    },
+    {
+        "main_word": "Fajerwerki",
+        "taboo_words": ["Eksplozje", "Uroczystość", "Kolory", "Niebo", "Wydarzenie"]
+    },
+    {
+        "main_word": "Komputer",
+        "taboo_words": ["Technologia", "Urządzenie", "Ekran", "Klawiatura", "Internet"]
+    },
+    {
+        "main_word": "Broda",
+        "taboo_words": ["Broda", "Podbródek", "Golenie", "Wąsy", "Golarka"]
+    },
+    {
+        "main_word": "Zegar",
+        "taboo_words": ["Czas", "Godzina", "Minuty", "Wskazówki", "Tikanie"]
+    },
+    {
+        "main_word": "Pszczoły",
+        "taboo_words": ["Owady", "Miód", "Buczenie", "Zapylenie", "Ul"]
+    },
+    {
+        "main_word": "Płaszcz przeciwdeszczowy",
+        "taboo_words": ["Wodoodporny", "Ochrona", "Mokro", "Odzież wierzchnia", "Kurtka"]
+    },
+    {
+        "main_word": "Piłka nożna",
+        "taboo_words": ["Sport", "Boisko", "Bramka", "Kask", "Podanie"]
+    },
+    {
+        "main_word": "Pianino",
+        "taboo_words": ["Instrument", "Klawisze", "Muzyka", "Melodia", "Grand"]
+    },
+    {
+        "main_word": "Dżungla",
+        "taboo_words": ["Dzicz", "Drzewa", "Zwierzęta", "Tropikalna", "Przygoda"]
+    },
+    {
+        "main_word": "Lustro",
+        "taboo_words": ["Odbicie", "Szkło", "Obraz", "Refleksyjny", "Widzieć"]
+    },
+    {
+        "main_word": "Lody",
+        "taboo_words": ["Deser", "Zamrożone", "Gałka", "Smaki", "Bulka"]
+    },
+    {
+        "main_word": "Szkoła",
+        "taboo_words": ["Edukacja", "Klasa", "Uczniowie", "Nauka", "Nauczyciel"]
+    },
+    {
+        "main_word": "Ogród",
+        "taboo_words": ["Rośliny", "Kwiaty", "Na zewnątrz", "Wzrost", "Ozdobne"]
+    },
+    {
+        "main_word": "Słoń",
+        "taboo_words": ["Zwierzę", "Trąba", "Kieł", "Ssak", "Safari"]
+    },
+    {
+        "main_word": "Las deszczowy",
+        "taboo_words": ["Ekosystem", "Tropikalny", "Bioróżnorodność", "Drzewa", "Amazonka"]
+    },
+    {
+        "main_word": "Kawa",
+        "taboo_words": ["Napój", "Kofeina", "Parzenie", "Picie", "Kubek"]
+    },
+    {
+        "main_word": "Orzeł",
+        "taboo_words": ["Ptak", "Rapacz", "Skrzydła", "Drapieżnik", "Unosić się"]
+    },
+    {
+        "main_word": "Lato",
+        "taboo_words": ["Pora roku", "Gorąco", "Plaża", "Wakacje", "Słońce"]
+    },
+    {
+        "main_word": "Policja",
+        "taboo_words": ["Straż", "Funkcjonariusze", "Mundur", "Patrol", "Chronić"]
+    },
+    {
+        "main_word": "Ciasto",
+        "taboo_words": ["Deser", "Uroczystość", "Słodki", "Warstwy", "Urodziny"]
+    },
+    {
+        "main_word": "Las",
+        "taboo_words": ["Drzewa", "Natura", "Leśny", "Dzikie zwierzęta", "Zielony"]
+    },
+    {
+        "main_word": "Księżyc",
+        "taboo_words": ["Księżycowy", "Nocne niebo", "Przestrzeń", "Orbita", "Półksiężyc"]
+    },
+    {
+        "main_word": "Wyspa",
+        "taboo_words": ["Ląd", "Woda", "Tropikalna", "Plaża", "Ocean"]
+    },
+    {
+        "main_word": "Śnieg",
+        "taboo_words": ["Zimno", "Zamrożone", "Zima", "Płatki", "Oblodzenie"]
+    },
+    {
+        "main_word": "Piłka nożna",
+        "taboo_words": ["Sport", "Bramka", "Boisko", "Drużyna", "Kopniak"]
+    },
+    {
+        "main_word": "Telefon",
+        "taboo_words": ["Komunikacja", "Rozmowa", "Dzwonić", "Rozmowa", "Urządzenie"]
+    },
+    {
+        "main_word": "Muzyka",
+        "taboo_words": ["Melodia", "Rytm", "Nutki", "Dźwięk", "Instrument"]
+    },
+    {
+        "main_word": "Kemping",
+        "taboo_words": ["Na zewnątrz", "Namiot", "Natura", "Ognisko", "Przygoda"]
+    },
+    {
+        "main_word": "Ocean",
+        "taboo_words": ["Morze", "Woda", "Plaża", "Morski", "Fale"]
+    },
+    {
+        "main_word": "Tęcza",
+        "taboo_words": ["Kolory", "Niebo", "Łuk", "Pogoda", "Garnek złota"]
+    },
+    {
+        "main_word": "Zoo",
+        "taboo_words": ["Zwierzęta", "Ekspozycja", "Zwierzęta dzikie", "Klatki", "Odwiedzać"]
+    },
+    {
+        "main_word": "Mapa",
+        "taboo_words": ["Nawigacja", "Kierunki", "Lokalizacja", "Przewodnik", "Papier"]
+    },
+    {
+        "main_word": "Teleskop",
+        "taboo_words": ["Astronomia", "Obserwacja", "Gwiazdy", "Obiektyw", "Galaktyka"]
+    },
+    {
+        "main_word": "Samochód",
+        "taboo_words": ["Samochód", "Pojazd", "Jazda", "Transport", "Droga"]
+    }
+]

@@ -31,6 +31,7 @@ import ChromeReaderModeTwoToneIcon from '@mui/icons-material/ChromeReaderModeTwo
 import WorkspacePremiumTwoToneIcon from '@mui/icons-material/WorkspacePremiumTwoTone';
 import CameraFrontTwoToneIcon from '@mui/icons-material/CameraFrontTwoTone';
 import DisplaySettingsTwoToneIcon from '@mui/icons-material/DisplaySettingsTwoTone';
+import { AccountTree, CardGiftcard } from "@mui/icons-material";
 
 const MenuWrapper = styled(Box)(
   ({ theme }) => `
@@ -197,6 +198,31 @@ function SidebarMenu() {
             </List>
           </SubMenuWrapper>
         </List>
+        <List
+          component="div"
+          subheader={
+            <ListSubheader component="div" disableSticky>
+              Projects
+            </ListSubheader>
+          }
+        >
+          <SubMenuWrapper>
+            <List component="div">
+              <ListItem component="div">
+                <Button
+                  disableRipple
+                  component={RouterLink}
+                  onClick={closeSidebar}
+                  to="/"
+                  startIcon={<CardGiftcard />}
+                >
+                  Taboo (Social Game)
+                </Button>
+              </ListItem>
+            </List>
+          </SubMenuWrapper>
+        </List>
+
         {/*<List*/}
         {/*  component="div"*/}
         {/*  subheader={*/}
@@ -232,63 +258,63 @@ function SidebarMenu() {
         {/*    </List>*/}
         {/*  </SubMenuWrapper>*/}
         {/*</List>*/}
-        <List
-          component="div"
-          subheader={
-            <ListSubheader component="div" disableSticky>
-              Extra Pages
-            </ListSubheader>
-          }
-        >
-          <SubMenuWrapper>
-            <List component="div">
-              <ListItem component="div">
-                <Button
-                  disableRipple
-                  component={RouterLink}
-                  onClick={closeSidebar}
-                  to="/status/404"
-                  startIcon={<CheckBoxTwoToneIcon />}
-                >
-                  Error 404
-                </Button>
-              </ListItem>
-              <ListItem component="div">
-                <Button
-                  disableRipple
-                  component={RouterLink}
-                  onClick={closeSidebar}
-                  to="/status/500"
-                  startIcon={<CameraFrontTwoToneIcon />}
-                >
-                  Error 500
-                </Button>
-              </ListItem>
-              <ListItem component="div">
-                <Button
-                  disableRipple
-                  component={RouterLink}
-                  onClick={closeSidebar}
-                  to="/status/coming-soon"
-                  startIcon={<ChromeReaderModeTwoToneIcon />}
-                >
-                  Coming Soon
-                </Button>
-              </ListItem>
-              <ListItem component="div">
-                <Button
-                  disableRipple
-                  component={RouterLink}
-                  onClick={closeSidebar}
-                  to="/status/maintenance"
-                  startIcon={<WorkspacePremiumTwoToneIcon />}
-                >
-                  Maintenance
-                </Button>
-              </ListItem>
-            </List>
-          </SubMenuWrapper>
-        </List>
+        {/*<List*/}
+        {/*  component="div"*/}
+        {/*  subheader={*/}
+        {/*    <ListSubheader component="div" disableSticky>*/}
+        {/*      Extra Pages*/}
+        {/*    </ListSubheader>*/}
+        {/*  }*/}
+        {/*>*/}
+        {/*  <SubMenuWrapper>*/}
+        {/*    <List component="div">*/}
+        {/*      <ListItem component="div">*/}
+        {/*        <Button*/}
+        {/*          disableRipple*/}
+        {/*          component={RouterLink}*/}
+        {/*          onClick={closeSidebar}*/}
+        {/*          to="/status/404"*/}
+        {/*          startIcon={<CheckBoxTwoToneIcon />}*/}
+        {/*        >*/}
+        {/*          Error 404*/}
+        {/*        </Button>*/}
+        {/*      </ListItem>*/}
+        {/*      <ListItem component="div">*/}
+        {/*        <Button*/}
+        {/*          disableRipple*/}
+        {/*          component={RouterLink}*/}
+        {/*          onClick={closeSidebar}*/}
+        {/*          to="/status/500"*/}
+        {/*          startIcon={<CameraFrontTwoToneIcon />}*/}
+        {/*        >*/}
+        {/*          Error 500*/}
+        {/*        </Button>*/}
+        {/*      </ListItem>*/}
+        {/*      <ListItem component="div">*/}
+        {/*        <Button*/}
+        {/*          disableRipple*/}
+        {/*          component={RouterLink}*/}
+        {/*          onClick={closeSidebar}*/}
+        {/*          to="/status/coming-soon"*/}
+        {/*          startIcon={<ChromeReaderModeTwoToneIcon />}*/}
+        {/*        >*/}
+        {/*          Coming Soon*/}
+        {/*        </Button>*/}
+        {/*      </ListItem>*/}
+        {/*      <ListItem component="div">*/}
+        {/*        <Button*/}
+        {/*          disableRipple*/}
+        {/*          component={RouterLink}*/}
+        {/*          onClick={closeSidebar}*/}
+        {/*          to="/status/maintenance"*/}
+        {/*          startIcon={<WorkspacePremiumTwoToneIcon />}*/}
+        {/*        >*/}
+        {/*          Maintenance*/}
+        {/*        </Button>*/}
+        {/*      </ListItem>*/}
+        {/*    </List>*/}
+        {/*  </SubMenuWrapper>*/}
+        {/*</List>*/}
       </MenuWrapper>
     </>
   );
