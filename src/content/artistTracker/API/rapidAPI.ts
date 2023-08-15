@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 const config = {
-  rapidAPIKey: "___",
-  rapidAPIHost: "___",
+  rapidAPIKey: null,
+  rapidAPIHost: null,
 };
 
 // seatgeek: df8291497b341a6dd105f1a71f7ae2ad2bcfb6093b19002efb6d1d58fe2e96a1 

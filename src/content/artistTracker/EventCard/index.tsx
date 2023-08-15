@@ -1,4 +1,4 @@
-import { Button, Card, CardActions, CardContent, CardHeader, Divider, ImageList, Table, TableBody, TableCell, TableRow } from "@mui/material"
+import { Button, Card, CardActions, CardContent, CardHeader, Divider, ImageList, Table, TableBody, TableCell, TableRow, Typography } from "@mui/material"
 
 interface IEventPriceRange {
   currency: string;
@@ -36,7 +36,7 @@ export default function EventCard(props: IEventCard) {
     }
   }
 
-  let date = "N/A";
+  let date = null;
   if (props.dateTime !== null) {
     date = new Date(props.dateTime).toLocaleString();
     let date1 = new Date();
@@ -57,14 +57,12 @@ export default function EventCard(props: IEventCard) {
             <TableBody>
               <TableRow>
                 <TableCell>Date</TableCell>
-                <TableCell>{date}</TableCell>
+                <TableCell>{date || <Typography variant="caption">N/A</Typography>}</TableCell>
               </TableRow>
-              {price && (
                 <TableRow>
                   <TableCell>Price</TableCell>
-                  <TableCell>{price}</TableCell>
+                  <TableCell>{price || <Typography variant="caption">N/A</Typography>}</TableCell>
                 </TableRow>
-              )}
             </TableBody>
           </Table>
           

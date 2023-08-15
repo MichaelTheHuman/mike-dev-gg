@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 const config = {
-  seatGeekClientID: "___",
-  seatGeekSecret: "___",
+  seatGeekClientID: null,
+  seatGeekSecret: null,
 };
 
 export default async function getEventsByArtist(artist: string) {

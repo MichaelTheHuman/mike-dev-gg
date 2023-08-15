@@ -1,14 +1,18 @@
 import axios from 'axios'
 
 const config = {
-  ticketmasterApiKey: "___",
-  musicSegmentId: "___",
+  ticketmasterApiKey: null,
+  musicSegmentId: "KZFzniwnSyZfZ7v7nJ",
   countryCode: "GB"
 };
 
 // seatgeek: df8291497b341a6dd105f1a71f7ae2ad2bcfb6093b19002efb6d1d58fe2e96a1 
 
 export default async function getEventsByArtist(artist: string):Promise<any> {
+  if (!config.ticketmasterApiKey) {
+    alert("TicketMasterAPIKey missing - cannot get events data.");
+    return;
+  }
   const options = {
     method: "GET",
     url: "https://app.ticketmaster.com/discovery/v2/events.json",

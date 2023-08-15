@@ -12,8 +12,9 @@ export default function ArtistTracker() {
   async function generateCards() {
     const events = await getEventsByArtist(artist);
     console.log(events);
-    if (!events._embedded) return;
-    if (!events._embedded.events) return;
+    if (!events._embedded || !events._embedded.events) {
+      alert("No events found for: " + artist + ".");
+    };
     const cards:IEventCard[] = [];
     events._embedded.events.map((item:any) => {
       let image = {
