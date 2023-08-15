@@ -5,10 +5,10 @@ import {
   TooltipProps,
   tooltipClasses,
   styled,
-  useTheme, Typography
+  useTheme, Typography, Avatar
 } from '@mui/material';
 import { Link } from 'react-router-dom';
-import { Animation, Architecture, BatchPrediction, Park } from "@mui/icons-material";
+import { Animation, Architecture, ArchitectureOutlined, ArchitectureRounded, ArchitectureSharp, BatchPrediction, Park } from "@mui/icons-material";
 
 const LogoWrapper = styled(Link)(
   ({ theme }) => `
@@ -116,12 +116,14 @@ function Logo() {
         {/*  color="success"*/}
         {/*  badgeContent="2.0"*/}
         {/*>*/}
-        <Architecture
-          rotate={50}
-          fontSize={"large"}
-          sx={{ color: "#ffffff", my: 'auto' }}
-        />
-        <Box sx={{ width: '250px', pl: 1 }}>
+        <Avatar sx={{ bgcolor: "secondary.main", my: "auto" }}>
+          <Architecture
+            // rotate={50}
+            fontSize={"large"}
+            sx={{ color: "black", my: 'auto' }}
+          />
+        </Avatar>
+        <Box sx={{ width: '250px', pl: 2 }}>
           <Typography
             fontSize={"large"}
             color={"#ffffff"}

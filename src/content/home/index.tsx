@@ -57,6 +57,26 @@ export default function Home() {
       </>,
     },
     {
+      title: "Artist Tracker",
+      content: <>
+        <Typography>App tracking when are your favourite artists playing next!</Typography>
+        <Table sx={{ my: 2 }}>
+          <TableRow>
+            <TableCell sx={{ width: "150px" }}>Language</TableCell>
+            <TableCell>TypeScript</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell>API</TableCell>
+            <TableCell>Ticketmaster</TableCell>
+          </TableRow>
+        </Table>
+      </>,
+      actions: <>
+        {/* <Button size="small" href="/">Project description and source code</Button> */}
+        <Button size="small" href="/app/artist">Click here to check it out!</Button>
+      </>,
+    },
+    {
       title: "Checkers",
       content: <>
         <Typography>Simple implementation of Checkers in the browser.</Typography>
@@ -75,7 +95,7 @@ export default function Home() {
         <Button size="small" href="/">Project description and source code</Button>
         <Button size="small" href="/">Click here to play!</Button>
       </>,
-    }
+    },
   ]
   return (
     <>

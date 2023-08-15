@@ -398,6 +398,10 @@ export const PureLightTheme = createTheme({
         ':root': {
           '--swiper-theme-color': colors.primary.main
         },
+        img: {
+          maxWidth: "100%",
+          height: "auto"
+        },
         code: {
           background: colors.info.lighter,
           color: colors.info.dark,

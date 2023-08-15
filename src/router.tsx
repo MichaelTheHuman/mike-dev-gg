@@ -16,6 +16,7 @@ const Loader = (Component) => (props) =>
 
 // Pages
 const Home = Loader(lazy(() => import('src/content/home')));
+const ArtistTracker = Loader(lazy(() => import('src/content/artistTracker')));
 
 const Status404 = Loader(
   lazy(() => import('src/content/pages/Status/Status404'))
@@ -81,6 +82,10 @@ const routes: RouteObject[] = [
       {
         path: 'home',
         element: <Home />
+      },
+      {
+        path: 'artist',
+        element: <ArtistTracker />
       }
     ]
   }

@@ -403,6 +403,10 @@ export const NebulaFighterTheme = createTheme({
           '--swiper-theme-color': colors.primary.main,
           colorScheme: 'dark'
         },
+        img: {
+          maxWidth: "100%",
+          height: "auto"
+        },
         code: {
           background: colors.info.lighter,
           color: colors.alpha.black[100],

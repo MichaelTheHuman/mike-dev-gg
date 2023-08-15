@@ -51,7 +51,7 @@ function Status404() {
             <Typography variant="h2" sx={{ my: 2 }}>
               The page you were looking for doesn't exist.
             </Typography>
-            <Typography
+            {/* <Typography
               variant="h4"
               color="text.secondary"
               fontWeight="normal"
@@ -59,12 +59,12 @@ function Status404() {
             >
               It's on us, we moved the content to a different page. The search
               below should help!
-            </Typography>
+            </Typography> */}
           </Box>
           <Container maxWidth="sm">
             <Card sx={{ textAlign: 'center', mt: 3, p: 4 }}>
-              <FormControl variant="outlined" fullWidth>
-                <OutlinedInputWrapper
+              {/*<FormControl variant="outlined" fullWidth>
+                 <OutlinedInputWrapper
                   type="text"
                   placeholder="Search terms here..."
                   endAdornment={
@@ -81,8 +81,8 @@ function Status404() {
                   }
                 />
               </FormControl>
-              <Divider sx={{ my: 4 }}>OR</Divider>
-              <Button href="/overview" variant="outlined">
+              <Divider sx={{ my: 4 }}>OR</Divider> */}
+              <Button href="/" variant="outlined">
                 Go to homepage
               </Button>
             </Card>

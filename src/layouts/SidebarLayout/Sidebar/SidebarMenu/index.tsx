@@ -31,7 +31,7 @@ import ChromeReaderModeTwoToneIcon from '@mui/icons-material/ChromeReaderModeTwo
 import WorkspacePremiumTwoToneIcon from '@mui/icons-material/WorkspacePremiumTwoTone';
 import CameraFrontTwoToneIcon from '@mui/icons-material/CameraFrontTwoTone';
 import DisplaySettingsTwoToneIcon from '@mui/icons-material/DisplaySettingsTwoTone';
-import { AccountTree, CardGiftcard } from "@mui/icons-material";
+import { AccountTree, CardGiftcard, Event } from "@mui/icons-material";
 
 const MenuWrapper = styled(Box)(
   ({ theme }) => `
@@ -216,7 +216,18 @@ function SidebarMenu() {
                   to="/"
                   startIcon={<CardGiftcard />}
                 >
-                  Taboo (Social Game)
+                  Taboo (Social Game) [@TODO]
+                </Button>
+              </ListItem>
+              <ListItem component="div">
+                <Button
+                  disableRipple
+                  component={RouterLink}
+                  onClick={closeSidebar}
+                  to="/app/artist"
+                  startIcon={<Event />}
+                >
+                  Artist Tracker [@TODO]
                 </Button>
               </ListItem>
             </List>
