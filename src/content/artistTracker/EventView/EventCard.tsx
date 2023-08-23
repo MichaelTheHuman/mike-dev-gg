@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   Box,
   Button,
@@ -14,28 +15,7 @@ import {
   Typography
 } from "@mui/material"
 import { formatPriceRange, getDaysDiff } from "../Utils/EventFormatter";
-
-export interface IEventPriceRange {
-  currency: string;
-  max: number;
-  min: number;
-}
-
-interface IEventImage {
-  url: string;
-  height: number;
-  width: number;
-  ratio: "16_9"|"3_2";
-}
-
-export interface IEvent {
-  name: string;
-  priceRange: IEventPriceRange|null;
-  url: string;
-  images: IEventImage[];
-  dateTime: string;
-  status: "onsale"|"?";
-}
+import { IEvent } from "./types";
 
 export default function EventCard(props: IEvent) {
   let price = "";
@@ -43,7 +23,7 @@ export default function EventCard(props: IEvent) {
     price = formatPriceRange(props.priceRange);
   }
 
-  let date = null;
+  let date:string|null = null;
   if (props.dateTime !== null) {
     date = new Date(props.dateTime).toLocaleString();
     let date1 = new Date();

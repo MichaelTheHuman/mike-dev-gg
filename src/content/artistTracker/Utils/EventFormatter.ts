@@ -1,4 +1,4 @@
-import { IEventPriceRange } from "../EventCard";
+import { IEventPriceRange } from "./../EventView/types";
 
 export function formatPriceRange(priceRange: IEventPriceRange) {
   const formatter = new Intl.NumberFormat('en-GB', {
