@@ -1,6 +1,21 @@
-import { Button, Card, CardActions, CardContent, CardHeader, Divider, ImageList, Table, TableBody, TableCell, TableRow, Typography } from "@mui/material"
+import {
+  Box,
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  CardHeader,
+  Divider,
+  ImageList,
+  Table,
+  TableBody,
+  TableCell,
+  TableRow,
+  Typography
+} from "@mui/material"
+import { formatPriceRange, getDaysDiff } from "../Utils/EventFormatter";
 
-interface IEventPriceRange {
+export interface IEventPriceRange {
   currency: string;
   max: number;
   min: number;
@@ -13,7 +28,7 @@ interface IEventImage {
   ratio: "16_9"|"3_2";
 }
 
-export interface IEventCard {
+export interface IEvent {
   name: string;
   priceRange: IEventPriceRange|null;
   url: string;
@@ -22,18 +37,10 @@ export interface IEventCard {
   status: "onsale"|"?";
 }
 
-export default function EventCard(props: IEventCard) {
+export default function EventCard(props: IEvent) {
   let price = "";
   if (props.priceRange !== null) {
-    const formatter = new Intl.NumberFormat('en-GB', {
-      style: 'currency',
-      currency: props.priceRange.currency,
-    });
-    price = formatter.format(props.priceRange.min);
-    if (props.priceRange.max !== props.priceRange.min) {
-      price += " - ";
-      price += formatter.format(props.priceRange.max);
-    }
+    price = formatPriceRange(props.priceRange);
   }
 
   let date = null;
@@ -42,7 +49,7 @@ export default function EventCard(props: IEventCard) {
     let date1 = new Date();
     let date2 = new Date(props.dateTime);
     let diff = Math.abs(date1.getTime() - date2.getTime());
-    let diffDays = Math.ceil(diff / (1000 * 3600 * 24)); 
+    let diffDays = Math.ceil(diff / (1000 * 3600 * 24));
     date += " (" + diffDays + "d)";
   }
 
@@ -50,7 +57,7 @@ export default function EventCard(props: IEventCard) {
   return (
     <>
       <Card>
-        <CardHeader title={props.name} />
+        <CardHeader title={props.name} sx={{ minHeight: "72px" }} />
         <Divider />
         <CardContent>
           <Table>
@@ -67,9 +74,12 @@ export default function EventCard(props: IEventCard) {
           </Table>
           
           <br />
-          <img
-            src={props.images[0].url}
-          />
+          <Box display="flex">
+            <img
+              src={props.images[0].url}
+              style={{ borderRadius: "4px", maxHeight: "100px", margin: "auto" }}
+            />
+          </Box>
         </CardContent>
         <Divider />
         <CardActions>

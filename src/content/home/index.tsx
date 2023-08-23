@@ -17,45 +17,45 @@ import PageTitle from "../../components/PageTitle";
 
 export default function Home() {
   const catalogue = [
-    {
-      title: "Taboo",
-      content: <>
-        <Typography>A word guessing party game.</Typography>
-        <Typography>
-          The objective of the game is for a player to have their partners guess the word
-          on the player's card without using the 5 words listed on the card.
-        </Typography>
-        <Divider sx={{ my: 1 }} />
-        <Typography>
-          This is my implementation of the game!
-        </Typography>
-        <Table sx={{ my: 2 }}>
-          <TableRow>
-            <TableCell sx={{ width: "150px" }}>Language</TableCell>
-            <TableCell>TypeScript</TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell>Framework</TableCell>
-            <TableCell>React</TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell>UI Library</TableCell>
-            <TableCell>Material UI</TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell>Theme</TableCell>
-            <TableCell>
-              <Link href="https://github.com/bloomui/tokyo-free-white-react-admin-dashboard" target="_blank">Tokyo White React Admin Dashboard</Link>
-            </TableCell>
-          </TableRow>
-        </Table>
-        <Typography>Cards were generated using ChatGPT. Available in English and Polish.</Typography>
-      </>,
-      actions: <>
-        <Button size="small" href="/">Project description and source code</Button>
-        <Button size="small" href="/">Click here to play!</Button>
-      </>,
-    },
+    // {
+    //   title: "Taboo",
+    //   content: <>
+    //     <Typography>A word guessing party game.</Typography>
+    //     <Typography>
+    //       The objective of the game is for a player to have their partners guess the word
+    //       on the player's card without using the 5 words listed on the card.
+    //     </Typography>
+    //     <Divider sx={{ my: 1 }} />
+    //     <Typography>
+    //       This is my implementation of the game!
+    //     </Typography>
+    //     <Table sx={{ my: 2 }}>
+    //       <TableRow>
+    //         <TableCell sx={{ width: "150px" }}>Language</TableCell>
+    //         <TableCell>TypeScript</TableCell>
+    //       </TableRow>
+    //       <TableRow>
+    //         <TableCell>Framework</TableCell>
+    //         <TableCell>React</TableCell>
+    //       </TableRow>
+    //       <TableRow>
+    //         <TableCell>UI Library</TableCell>
+    //         <TableCell>Material UI</TableCell>
+    //       </TableRow>
+    //       <TableRow>
+    //         <TableCell>Theme</TableCell>
+    //         <TableCell>
+    //           <Link href="https://github.com/bloomui/tokyo-free-white-react-admin-dashboard" target="_blank">Tokyo White React Admin Dashboard</Link>
+    //         </TableCell>
+    //       </TableRow>
+    //     </Table>
+    //     <Typography>Cards were generated using ChatGPT. Available in English and Polish.</Typography>
+    //   </>,
+    //   actions: <>
+    //     <Button size="small" href="/">Project description and source code</Button>
+    //     <Button size="small" href="/">Click here to play!</Button>
+    //   </>,
+    // },
     {
       title: "Artist Tracker",
       content: <>
@@ -76,26 +76,26 @@ export default function Home() {
         <Button size="small" href="/app/artist">Click here to check it out!</Button>
       </>,
     },
-    {
-      title: "Checkers",
-      content: <>
-        <Typography>Simple implementation of Checkers in the browser.</Typography>
-        <Table sx={{ my: 2 }}>
-          <TableRow>
-            <TableCell sx={{ width: "150px" }}>Languages</TableCell>
-            <TableCell>JavaScript (front-end), NodeJS (server for multiplayer)</TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell>Framework</TableCell>
-            <TableCell>React</TableCell>
-          </TableRow>
-        </Table>
-      </>,
-      actions: <>
-        <Button size="small" href="/">Project description and source code</Button>
-        <Button size="small" href="/">Click here to play!</Button>
-      </>,
-    },
+    // {
+    //   title: "Checkers",
+    //   content: <>
+    //     <Typography>Simple implementation of Checkers in the browser.</Typography>
+    //     <Table sx={{ my: 2 }}>
+    //       <TableRow>
+    //         <TableCell sx={{ width: "150px" }}>Languages</TableCell>
+    //         <TableCell>JavaScript (front-end), NodeJS (server for multiplayer)</TableCell>
+    //       </TableRow>
+    //       <TableRow>
+    //         <TableCell>Framework</TableCell>
+    //         <TableCell>React</TableCell>
+    //       </TableRow>
+    //     </Table>
+    //   </>,
+    //   actions: <>
+    //     <Button size="small" href="/">Project description and source code</Button>
+    //     <Button size="small" href="/">Click here to play!</Button>
+    //   </>,
+    // },
   ]
   return (
     <>
@@ -105,7 +105,7 @@ export default function Home() {
       <PageTitleWrapper>
         <PageTitle
           heading="Catalogue"
-          subHeading="Here are some things I worked on in free time."
+          subHeading="Here are some things I worked on in free time. It's not much but it's honest work!"
         />
       </PageTitleWrapper>
       <Container maxWidth="lg">

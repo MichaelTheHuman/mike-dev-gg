@@ -6,8 +6,11 @@ const config = {
   countryCode: "GB"
 };
 
-// seatgeek: df8291497b341a6dd105f1a71f7ae2ad2bcfb6093b19002efb6d1d58fe2e96a1 
-
+/**
+ * @IMPROVEMENT for this API request, rather than getting it directly from
+ * the vendor, it should route to a custom server, which will enable the
+ * possibility of rate limiting, to prevent spamming the API
+ */
 export default async function getEventsByArtist(artist: string):Promise<any> {
   if (!config.ticketmasterApiKey) {
     alert("TicketMasterAPIKey missing - cannot get events data.");
