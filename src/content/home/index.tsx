@@ -7,7 +7,7 @@ import {
   Container,
   Divider,
   Grid, Link,
-  Stack, Table, TableCell, TableRow,
+  Stack, Table, TableBody, TableCell, TableRow,
   Typography
 } from "@mui/material";
 import { Helmet } from "react-helmet-async";
@@ -61,14 +61,16 @@ export default function Home() {
       content: <>
         <Typography>App tracking when are your favourite artists playing next!</Typography>
         <Table sx={{ my: 2 }}>
-          <TableRow>
-            <TableCell sx={{ width: "150px" }}>Language</TableCell>
-            <TableCell>TypeScript</TableCell>
-          </TableRow>
-          <TableRow>
-            <TableCell>API</TableCell>
-            <TableCell>Ticketmaster</TableCell>
-          </TableRow>
+          <TableBody>
+            <TableRow>
+              <TableCell sx={{ width: "150px" }}>Language</TableCell>
+              <TableCell>TypeScript</TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell>API</TableCell>
+              <TableCell>Ticketmaster</TableCell>
+            </TableRow>
+          </TableBody>
         </Table>
       </>,
       actions: <>

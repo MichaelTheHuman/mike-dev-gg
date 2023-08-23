@@ -36,7 +36,8 @@ export default function ArtistTracker() {
     "Arctic Monkeys",
     "The Who",
     "Nothing but Thieves",
-    "The Chemical Brothers"
+    "The Chemical Brothers",
+    "King Gizzard and the Lizard Wizard"
   ];
   const [selectedArtists, setSelectedArtists] = useState([]);
   const [events, setEvents] = useState<IEvent[]>([]);
@@ -157,7 +158,7 @@ export default function ArtistTracker() {
           onChange={(e, newViewMode) => {
             setViewMode(newViewMode);
           }}
-          aria-label="text formatting"
+          aria-label="view mode"
           size="small"
           sx={{ ml: "auto" }}
         >
