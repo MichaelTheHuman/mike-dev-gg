@@ -18,4 +18,8 @@ To see the code specific to the ArtistTracker, navigate here:
 
 [./src/content/artistTracker](/src/content/artistTracker)
 
+To see the app in action live, navigate here: 
+
+[http://cv.mkosiorowski.com/app/artist](http://cv.mkosiorowski.com/app/artist)
+
 # Thanks!
