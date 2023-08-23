@@ -18,7 +18,7 @@ import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone';
 import HeaderButtons from './Buttons';
 import HeaderUserbox from './Userbox';
 import HeaderMenu from './Menu';
-import { LinkedIn } from "@mui/icons-material";
+import { Email, LinkedIn } from "@mui/icons-material";
 
 const HeaderWrapper = styled(Box)(
   ({ theme }) => `
@@ -73,6 +73,10 @@ function Header() {
         <Link href="https://www.linkedin.com/in/mk9401/" target="_blank" sx={{ display: "flex" }}>
           <LinkedIn sx={{ my: "auto" }} />
           <Typography sx={{ mt: "auto", ml: 0.5 }}>LinkedIn</Typography>
+        </Link>
+        <Link href="mailto:mike.dev.gg@gmail.com" sx={{ display: "flex" }}>
+          <Email sx={{ my: "auto" }} />
+          <Typography sx={{ mt: "auto", ml: 0.5 }}>mike.dev.gg@gmail.com</Typography>
         </Link>
       </Stack>
       <Box display="flex" alignItems="center">
