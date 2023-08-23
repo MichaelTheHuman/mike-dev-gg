@@ -9,7 +9,11 @@ export const ThemeContext = React.createContext(
 
 const ThemeProviderWrapper: React.FC = (props) => {
   // const curThemeName = localStorage.getItem('appTheme') || 'PureLightTheme';
-  const curThemeName = localStorage.getItem('appTheme') || 'NebulaFighterTheme';
+  const defaultTheme = 'NebulaFighterTheme';
+  if (!localStorage.getItem('appTheme')) {
+    localStorage.setItem('appTheme', defaultTheme);
+  }
+  const curThemeName = localStorage.getItem('appTheme');
   // console.log("Theme: " + curThemeName);
   const [themeName, _setThemeName] = useState(curThemeName);
   const theme = themeCreator(themeName);
