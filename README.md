@@ -16,6 +16,6 @@ There are a lot of improvements to be made and further plans, but you can alread
 
 To see the code specific to the ArtistTracker, navigate here: 
 
-[./src/content/artistTracker](https://github.com/MichaelTheHuman/mike-dev-gg/tree/main/src/content/artistTracker)
+[./src/content/artistTracker](/src/content/artistTracker)
 
 # Thanks!
