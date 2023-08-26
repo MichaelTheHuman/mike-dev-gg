@@ -78,8 +78,6 @@ export default function ArtistTracker() {
           <TextField
             {...params}
             label="Artists"
-            // placeholder={"Select artists to track..."}
-            sx={{ minWidth: "500px" }}
           />
         )}
       />
@@ -89,11 +87,6 @@ export default function ArtistTracker() {
           mt: 2
         }}
       >
-        {/*{artists.map((artist, key) => (*/}
-        {/*  <Button key={key} disabled sx={{ mr: 1 }}>{artist}</Button>*/}
-        {/*))}*/}
-        {/*<TextField label="Artist keyword" value={artist} onChange={(e) => setArtist(e.target.value)} />*/}
-        {/*<TextField label="Country" value="GB" disabled />*/}
         <Button variant="outlined" onClick={() => {
           getEvents().then(() => {
             console.log("Done!")
@@ -119,14 +112,6 @@ export default function ArtistTracker() {
             <ViewModule />
           </ToggleButton>
         </ToggleButtonGroup>
-        {/*<FormControlLabel*/}
-        {/*  control={*/}
-        {/*    <Switch checked={listView}  onChange={() => setListView(!listView)} />*/}
-        {/*  }*/}
-        {/*  label="List view"*/}
-        {/*  sx={{ ml: "auto" }}*/}
-        {/*/>*/}
-
       </Box>
       <Divider sx={{ my: 2 }} />
       {isLoading && (
@@ -143,7 +128,7 @@ export default function ArtistTracker() {
         ) : (
           <Grid container spacing={2}>
             {events.map((card, key) => (
-              <Grid item xs={4} key={key}>
+              <Grid item xs={12} sm={6} md={4} key={key}>
                 <EventCard
                   {...card}
                 />

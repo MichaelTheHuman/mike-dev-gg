@@ -119,7 +119,7 @@ export default function Home() {
           spacing={3}
         >
           {catalogue.map((item, key) => (
-            <Grid item xs={6} key={key}>
+            <Grid item xs={12} sm={6} md={4} key={key}>
               <Card>
                 <CardHeader title={item.title} />
                 <Divider />

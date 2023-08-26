@@ -68,6 +68,9 @@ function Header() {
         divider={<Divider orientation="vertical" flexItem />}
         alignItems="center"
         spacing={2}
+        sx={{
+          display: { sm: 'flex', xs: 'none' }
+        }}
       >
         <HeaderMenu />
         <Link href="https://www.linkedin.com/in/mk9401/" target="_blank" sx={{ display: "flex" }}>
@@ -79,13 +82,12 @@ function Header() {
           <Typography sx={{ mt: "auto", ml: 0.5 }}>mike.dev.gg@gmail.com</Typography>
         </Link>
       </Stack>
-      <Box display="flex" alignItems="center">
+      <Box display="flex" alignItems="center" sx={{ ml: "auto" }}>
         <HeaderButtons />
         {/*<HeaderUserbox />*/}
         <Box
-          component="span"
+          // component="span"
           sx={{
-            ml: 2,
             display: { lg: 'none', xs: 'inline-block' }
           }}
         >

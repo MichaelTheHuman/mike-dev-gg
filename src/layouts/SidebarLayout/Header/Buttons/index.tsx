@@ -9,7 +9,7 @@ import { useContext } from 'react';
 
 function HeaderButtons() {
   return (
-    <Box sx={{ mr: 1 }}>
+    <Box>
       <ThemeSwitch
       />
       {/*<Link href="https://www.linkedin.com/in/mk9401/">*/}

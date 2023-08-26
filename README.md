@@ -22,7 +22,4 @@ To see the app in action live, navigate here:
 
 [http://cv.mkosiorowski.com/app/artist](http://cv.mkosiorowski.com/app/artist)
 
-## Considerations
-This is meant to be viewed on desktop only. Mobile version could be implemented if needed, however currently this is a desktop first application. 
-
 # Thanks!
