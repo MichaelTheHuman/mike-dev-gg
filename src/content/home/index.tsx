@@ -59,23 +59,47 @@ export default function Home() {
     {
       title: "Artist Tracker",
       content: <>
-        <Typography>App tracking when are your favourite artists playing next!</Typography>
-        <Table sx={{ my: 2 }}>
+        <Table sx={{ mb: 2 }}>
           <TableBody>
             <TableRow>
               <TableCell sx={{ width: "150px" }}>Language</TableCell>
               <TableCell>TypeScript</TableCell>
             </TableRow>
             <TableRow>
+              <TableCell>Framework</TableCell>
+              <TableCell>React</TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell>UI Library</TableCell>
+              <TableCell>Material UI</TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell>Theme</TableCell>
+              <TableCell>
+                <Link href="https://github.com/bloomui/tokyo-free-white-react-admin-dashboard" target="_blank">
+                  Tokyo Admin Dashboard
+                </Link>
+              </TableCell>
+            </TableRow>
+            <TableRow>
               <TableCell>API</TableCell>
-              <TableCell>Ticketmaster</TableCell>
+              <TableCell>
+                <Link 
+                  href="https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/#search-events-v2" 
+                  target="_blank"
+                >
+                  Ticketmaster
+                </Link>
+              </TableCell>
             </TableRow>
           </TableBody>
         </Table>
+        <Typography>App tracking when are your favourite artists playing next!</Typography>
       </>,
       actions: <>
         {/* <Button size="small" href="/">Project description and source code</Button> */}
-        <Button size="small" href="/app/artist">Click here to check it out!</Button>
+        <Button size="small" href="/app/artist">Live version</Button>
+        <Button size="small" target="_blank" href="https://github.com/MichaelTheHuman/mike-dev-gg/">GitHub repo</Button>
       </>,
     },
     // {

@@ -18,7 +18,7 @@ import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone';
 import HeaderButtons from './Buttons';
 import HeaderUserbox from './Userbox';
 import HeaderMenu from './Menu';
-import { Email, LinkedIn } from "@mui/icons-material";
+import { Email, GitHub, LinkedIn } from "@mui/icons-material";
 
 const HeaderWrapper = styled(Box)(
   ({ theme }) => `
@@ -77,7 +77,11 @@ function Header() {
           <LinkedIn sx={{ my: "auto" }} />
           <Typography sx={{ mt: "auto", ml: 0.5 }}>LinkedIn</Typography>
         </Link>
-        <Link href="mailto:mike.dev.gg@gmail.com" sx={{ display: "flex" }}>
+        <Link href="https://github.com/MichaelTheHuman/mike-dev-gg/" target="_blank" sx={{ display: "flex" }}>
+          <GitHub sx={{ my: "auto" }} />
+          <Typography sx={{ mt: "auto", ml: 0.5 }}>Github</Typography>
+        </Link>
+        <Link href="mailto:mike.dev.gg@gmail.com" target="_blank" sx={{ display: "flex" }}>
           <Email sx={{ my: "auto" }} />
           <Typography sx={{ mt: "auto", ml: 0.5 }}>mike.dev.gg@gmail.com</Typography>
         </Link>
